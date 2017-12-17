@@ -1,0 +1,8 @@
+Tallinn
+{"lon":24.7454,"lat":59.4372}
+Current temperature: 
+0.0
+Forecast: 
+Day 1: -0.41
+Day 2: 0.53
+Day 3: 0.61
