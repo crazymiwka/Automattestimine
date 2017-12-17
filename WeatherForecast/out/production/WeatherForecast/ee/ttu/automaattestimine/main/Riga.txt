@@ -1,0 +1,8 @@
+Riga
+{"lon":24.1052,"lat":56.9494}
+Current temperature: 
+0.0
+Forecast: 
+Day 1: 0.18
+Day 2: -1.64
+Day 3: -2.13

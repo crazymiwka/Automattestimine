@@ -1,0 +1,8 @@
+Helsinki
+{"lon":24.9426,"lat":60.1674}
+Current temperature: 
+-3.0
+Forecast: 
+Day 1: 0.21
+Day 2: 2.67
+Day 3: 3.28

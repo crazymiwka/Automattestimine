@@ -1,4 +1,4 @@
-Tallinn
+Moscow
 {"lon":139.759,"lat":35.6828}
 Current temperature: 
 -1.18
