@@ -1,8 +1,17 @@
 Tallinn
-{"lon":139.759,"lat":35.6828}
-Current temperature: 
--1.18
-Forecast: 
-Day 1: 0.01
-Day 2: 4.82
-Day 3: 8.11
+{"lon":24.7454,"lat":59.4372}
+
+Current temperature: 1.0 °C
+
+Forecast:
+1 Day:
+Max: 2.75 °C
+Min: -2.24 °C
+
+2 Day:
+Max: 3.1 °C
+Min: -1.91 °C
+
+3 Day:
+Max: 3.55 °C
+Min: 1.41 °C

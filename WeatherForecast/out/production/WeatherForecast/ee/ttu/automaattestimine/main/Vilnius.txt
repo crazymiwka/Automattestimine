@@ -1,4 +1,4 @@
-Riga
+Vilnius
 {"lon":12.5701,"lat":55.6867}
 
 Current temperature: 2.21 °C

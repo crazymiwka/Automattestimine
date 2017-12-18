@@ -1,0 +1,17 @@
+Stockholm
+{"lon":18.0711,"lat":59.3251}
+
+Current temperature: 1.0 °C
+
+Forecast:
+1 Day:
+Max: -1.5 °C
+Min: -5.07 °C
+
+2 Day:
+Max: 3.42 °C
+Min: -2.41 °C
+
+3 Day:
+Max: 2.34 °C
+Min: -2.89 °C

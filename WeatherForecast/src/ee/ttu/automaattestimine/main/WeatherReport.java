@@ -2,6 +2,8 @@ package ee.ttu.automaattestimine.main;
 
 import org.json.*;
 import java.io.*;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 public class WeatherReport {
@@ -40,13 +42,38 @@ public class WeatherReport {
         return API_KEY;
     }
 
-    public boolean writeReport(){
+    public boolean writeReport() {
+        HashMap<String, Double> forecastTempMax = new HashMap<>();
+        HashMap<String, Double> forecastTempMin = new HashMap<>();
+        for (int i = 0; i < 40; i ++){
+            String fragmentData = forecast.getJSONObject(i).getString("dt_txt").substring(0, 10);
+            double fragmentTemp = forecast.getJSONObject(i).getJSONObject("main").getDouble("temp");
+            forecastTempMax.put(fragmentData, fragmentTemp);
+            forecastTempMin.put(fragmentData, fragmentTemp);
+        }
+
+        for (int i = 0; i < 40; i++) {
+            String fragmentData = forecast.getJSONObject(i).getString("dt_txt").substring(0, 10);
+            double fragmentTemp = forecast.getJSONObject(i).getJSONObject("main").getDouble("temp");
+            if (forecastTempMax.containsKey(fragmentData) && forecastTempMax.get(fragmentData) < fragmentTemp){
+                forecastTempMax.put(fragmentData, fragmentTemp);
+            } else if (forecastTempMin.containsKey(fragmentData) && forecastTempMin.get(fragmentData) > fragmentTemp) {
+                forecastTempMin.put(fragmentData, fragmentTemp);
+            }
+        }
+
         List<String> temperatureToWrite = Arrays.asList(cityName, cityCoordinates,
                 "\nCurrent temperature: " + Double.toString(currentTemperature) + " °C",
-                "\nForecast: ",
-                "1 Day: " + forecast.getJSONObject(8).getJSONObject("main").getDouble("temp_max") + " °C",
-                "2 Day: " + forecast.getJSONObject(16).getJSONObject("main").getDouble("temp_max") + " °C",
-                "3 Day: " + forecast.getJSONObject(24).getJSONObject("main").getDouble("temp_max") + " °C");
+                "\nForecast:",
+                "1 Day:",
+                "Max: " + forecastTempMax.get(DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDate.now().plusDays(1))) + " °C",
+                "Min: " + forecastTempMin.get(DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDate.now().plusDays(1))) + " °C",
+                "\n2 Day:",
+                "Max: " + forecastTempMax.get(DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDate.now().plusDays(2))) + " °C",
+                "Min: " + forecastTempMin.get(DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDate.now().plusDays(2))) + " °C",
+                "\n3 Day:",
+                "Max: " + forecastTempMax.get(DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDate.now().plusDays(3))) + " °C",
+                "Min: " + forecastTempMin.get(DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDate.now().plusDays(3))) + " °C");
         return writer.write(cityName, temperatureToWrite);
     }
 

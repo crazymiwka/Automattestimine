@@ -1,0 +1,17 @@
+Oslo
+{"lon":10.7391,"lat":59.9133}
+
+Current temperature: -1.0 °C
+
+Forecast:
+1 Day:
+Max: -9.16 °C
+Min: -12.9 °C
+
+2 Day:
+Max: -6.97 °C
+Min: -13.46 °C
+
+3 Day:
+Max: -10.5 °C
+Min: -14.03 °C
