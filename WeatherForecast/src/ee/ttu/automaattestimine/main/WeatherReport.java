@@ -42,12 +42,11 @@ public class WeatherReport {
 
     public boolean writeReport(){
         List<String> temperatureToWrite = Arrays.asList(cityName, cityCoordinates,
-                "Current temperature: ",
-                Double.toString(currentTemperature),
-                "Forecast: ",
-                "Day 1: " + forecast.getJSONObject(0).getJSONObject("main").getDouble("temp_max"),
-                "Day 2: " + forecast.getJSONObject(1).getJSONObject("main").getDouble("temp_max"),
-                "Day 3: " + forecast.getJSONObject(2).getJSONObject("main").getDouble("temp_max"));
+                "\nCurrent temperature: " + Double.toString(currentTemperature) + " °C",
+                "\nForecast: ",
+                "1 Day: " + forecast.getJSONObject(8).getJSONObject("main").getDouble("temp_max") + " °C",
+                "2 Day: " + forecast.getJSONObject(16).getJSONObject("main").getDouble("temp_max") + " °C",
+                "3 Day: " + forecast.getJSONObject(24).getJSONObject("main").getDouble("temp_max") + " °C");
         return writer.write(cityName, temperatureToWrite);
     }
 
@@ -58,7 +57,6 @@ public class WeatherReport {
     public JSONArray getForecast() {
         return forecast;
     }
-
 
     private String extractCoordinates(JSONObject jsonObject){
         return jsonObject.getJSONObject("city").getJSONObject("coord").toString();

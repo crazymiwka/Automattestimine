@@ -19,70 +19,7 @@
     <favorites_list name="WeatherForecast" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WeatherRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/WeatherRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/WeatherReport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="68" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1183#1184#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
-                <element signature="e#1904#1905#0" expanded="true" />
-                <element signature="e#1942#1943#0" expanded="true" />
-                <element signature="e#1973#1974#0" expanded="true" />
-                <element signature="e#2189#2190#0" expanded="true" />
-                <element signature="e#2252#2253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherReportTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/ee/ttu/automaattestimine/main/WeatherReportTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="100" column="54" lean-forward="false" selection-start-line="100" selection-start-column="54" selection-end-line="100" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1375#1376#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
-                <element signature="e#1491#1492#0" expanded="true" />
-                <element signature="e#1567#1568#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,6 +34,7 @@
     <findStrings>
       <find>WebRequest</find>
       <find>Coords</find>
+      <find>coord</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -118,8 +56,8 @@
         <option value="$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Reports.java" />
         <option value="$PROJECT_DIR$/src/ee/ttu/automaattestimine/test/WeatherTest.java" />
         <option value="$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Writer.java" />
-        <option value="$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/WeatherReport.java" />
         <option value="$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/input.txt" />
+        <option value="$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/WeatherReport.java" />
         <option value="$PROJECT_DIR$/test/ee/ttu/automaattestimine/main/WeatherReportTest.java" />
       </list>
     </option>
@@ -220,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WeatherReportTest.testMockExternalAPI">
+  <component name="RunManager" selected="JUnit.WeatherReportTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -267,7 +205,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WeatherReportTest.getCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeatherReportTest.testFileExistAfterWrite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ee.ttu.automaattestimine.main.*" />
@@ -279,7 +217,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ee.ttu.automaattestimine.main" />
       <option name="MAIN_CLASS_NAME" value="ee.ttu.automaattestimine.main.WeatherReportTest" />
-      <option name="METHOD_NAME" value="getCurrentTemperature" />
+      <option name="METHOD_NAME" value="testFileExistAfterWrite" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -587,18 +525,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.WeatherReportTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.getCurrentTemperature" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testMockFileWrite" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testMockFileRead" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testMockExternalAPI" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testMockFileWrite" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testMockFileRead" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testMockExternalAPI" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testFileExistAfterWrite" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testMockExternalAPI" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WeatherReportTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testMockFileWrite" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.WeatherReportTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testMockFileWrite" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testMockExternalAPI" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testMockFileRead" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.getCurrentTemperature" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.WeatherReportTest.testFileExistAfterWrite" />
       </list>
     </recent_temporary>
   </component>
@@ -619,34 +557,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeatherReportTest_testMockExternalAPI - 2017.12.17 at 21h 20m 34s.xml">
+    <history-entry file="WeatherReportTest - 2017.12.18 at 10h 44m 48s.xml">
+      <configuration name="WeatherReportTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherReportTest - 2017.12.18 at 10h 52m 23s.xml">
+      <configuration name="WeatherReportTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherReportTest - 2017.12.18 at 10h 53m 06s.xml">
+      <configuration name="WeatherReportTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherReportTest - 2017.12.18 at 10h 53m 34s.xml">
+      <configuration name="WeatherReportTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherReportTest_testMockExternalAPI - 2017.12.18 at 10h 40m 05s.xml">
       <configuration name="WeatherReportTest.testMockExternalAPI" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherReportTest_testMockExternalAPI - 2017.12.17 at 21h 24m 56s.xml">
+    <history-entry file="WeatherReportTest_testMockExternalAPI - 2017.12.18 at 10h 41m 06s.xml">
       <configuration name="WeatherReportTest.testMockExternalAPI" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherReportTest_testMockExternalAPI - 2017.12.17 at 21h 31m 58s.xml">
+    <history-entry file="WeatherReportTest_testMockExternalAPI - 2017.12.18 at 10h 41m 22s.xml">
       <configuration name="WeatherReportTest.testMockExternalAPI" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherReportTest_testMockExternalAPI - 2017.12.17 at 21h 32m 49s.xml">
-      <configuration name="WeatherReportTest.testMockExternalAPI" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WeatherReportTest_testMockExternalAPI - 2017.12.17 at 21h 33m 52s.xml">
-      <configuration name="WeatherReportTest.testMockExternalAPI" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WeatherReportTest_testMockExternalAPI - 2017.12.17 at 21h 35m 06s.xml">
-      <configuration name="WeatherReportTest.testMockExternalAPI" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WeatherReportTest_testMockFileWrite - 2017.12.17 at 20h 24m 15s.xml">
+    <history-entry file="WeatherReportTest_testMockFileWrite - 2017.12.18 at 10h 45m 02s.xml">
       <configuration name="WeatherReportTest.testMockFileWrite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherReportTest_testMockFileWrite - 2017.12.17 at 20h 25m 00s.xml">
+    <history-entry file="WeatherReportTest_testMockFileWrite - 2017.12.18 at 10h 45m 21s.xml">
       <configuration name="WeatherReportTest.testMockFileWrite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherReportTest_testMockFileWrite - 2017.12.17 at 20h 25m 46s.xml">
-      <configuration name="WeatherReportTest.testMockFileWrite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WeatherReportTest_testMockFileWrite - 2017.12.17 at 20h 38m 40s.xml">
+    <history-entry file="WeatherReportTest_testMockFileWrite - 2017.12.18 at 10h 45m 54s.xml">
       <configuration name="WeatherReportTest.testMockFileWrite" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -661,12 +599,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28833553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -678,7 +617,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -693,7 +631,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -723,12 +663,12 @@
             <element signature="e#1149#1150#0" expanded="true" />
             <element signature="e#1183#1184#0" expanded="true" />
             <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
+            <element signature="e#1886#1887#0" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+            <element signature="e#2274#2275#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -799,23 +739,6 @@
     <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/test/WeatherTest.java" />
     <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/mainTallinn.txt" />
     <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Moscow.txt" />
-    <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Tallinn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Riga.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -830,10 +753,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Weather.java" />
+    <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Tallinn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Reports.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="144" lean-forward="false" selection-start-line="22" selection-start-column="139" selection-end-line="22" selection-end-column="144" />
+        <state relative-caret-position="680">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
@@ -842,7 +782,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Weather.java" />
+    <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/WeatherReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1886#1887#0" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+            <element signature="e#2274#2275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -863,40 +834,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/WeatherReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="68" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ee/ttu/automaattestimine/main/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/ee/ttu/automaattestimine/main/WeatherReportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="100" column="54" lean-forward="false" selection-start-line="100" selection-start-column="54" selection-end-line="100" selection-end-column="54" />
+        <state relative-caret-position="2308">
+          <caret line="96" column="12" lean-forward="false" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1375#1376#0" expanded="true" />
